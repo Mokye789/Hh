@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $(cd $(dirname $0); pwd)
+
+sudo lua5.2 Fast.lua
+;;
+esac
