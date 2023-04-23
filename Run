@@ -1,0 +1,82 @@
+#!/bin/bash
+cd $(cd $(dirname $0); pwd)
+echo -e '\e[1m\e[31m
+Storm source is being installed, 
+Please wait until the installation is complete
+\033[0m'
+echo -e '\033[0;33m
+If it is the first time to install the source, send the number » {1}
+or اذا كانت اول مره تنصيب السورس ارسل رقم » {1}
+If you have already installed the source, send the number » {2}
+or اذا سبق ونصبت السورس ارسل رقم » {2}
+\033[0m'
+read Install
+case $Install in
+1)
+echo -e '\033[0;33mOffice installation has begun'
+sleep 2
+apt update
+apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo  wget https://luarocks.org/releases/luarocks-2.4.3.tar.gz
+sudo  tar zxpf luarocks-2.4.3.tar.gz
+cd luarocks-2.4.3
+./configure; sudo make bootstrap
+sudo luarocks install luasocket
+sudo luarocks install luasec
+sudo luarocks install luautf8
+sudo luarocks install redis-lua
+sudo  luarocks remove lua-cjson2
+sudo  luarocks remove lua-cjson
+sudo  apt-get install lua-cjson
+sudo luarocks install Lua-cURL
+cd ..
+sudo apt-get install tmux
+sudo apt-get install luarocks
+sudo apt-get install screen
+sudo apt install zip
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+sudo apt-get update
+sudo apt-get install
+sudo apt-get install upstart-sysv
+wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz;tar zxpf luarocks-2.2.2.tar.gz;cd luarocks-2.2.2 && ./configure
+sudo make bootstrap
+sudo luarocks install luasocket
+sudo luarocks install luasec
+sudo luarocks install lua-term
+sudo luarocks install Lua-cURL
+sudo service redis-server start
+sudo apt-get install libconfig++9v5 -y 
+sudo apt-get install libstdc++6 -y
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y 
+sudo apt-get install lua-lgi -y  
+sudo apt-get install software-properties-common -y
+sudo apt-get install libnotify-dev -y 
+sudo apt-get install lua-space -y
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
+apt install python3
+apt install python3-pip
+pip3 install yt-dlp
+pip3 install ffmpeg 
+apt install ffmpeg 
+apt install gnome-calculator
+pip3 install gtts
+sudo apt-get update 
+sudo apt-get upgrade -y
+cd ..
+rm -rf luarocks*
+unzip tdlua.zip
+sudo mv tdlua.so /usr/lib/x86_64-linux-gnu/lua/5.2/tdlua.so
+rm -fr tdlua.zip
+sudo lua5.2 Fast.lua
+;;
+2)
+echo -e "\e[1m\e[32mThe bot is running now : جاري تشغيل البوت الان : \e[0m"
+sleep 2
+unzip tdlua.zip
+sudo mv tdlua.so /usr/lib/x86_64-linux-gnu/lua/5.2/tdlua.so
+rm -fr tdlua.zip
+sudo lua5.2 Fast.lua
+;;
+esac

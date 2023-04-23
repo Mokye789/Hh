@@ -1,0 +1,4 @@
+cd $(cd $(dirname $0); pwd)
+while(true) do
+lua5.3 Fast.lua
+done
