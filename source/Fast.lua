@@ -1983,12 +1983,12 @@ return send(msg_chat_id,msg_id,'*💥 تم استرجاع قائمه المطو�
 end
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
-photo = "https://t.me/narutologo/39"
-local Name = "*⊷⌯⧼᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬⧽⌯⊶\n*★‹ [᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬](http://t.me/SOURCE_HORSE)*\n*★‹ [𝐀𝐒𝗞 𝗧𝐎 𝐌𝗘](http://t.me/SOURCE_HORSE)*\n*★‹ [ꪔ᥆ժY♡](t.me/M_O_0D)*\n*★‹ [᥉𝗁ᥲ️ժ᥆᭙♡](t.me/Belal_19)*\n*★‹ [᥉ƚᥱ᥎ᥱꪀ♡](t.me/S_E_N1)*\n⊷⌯⧼᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬⧽⌯⊶*"
+photo = "https://t.me/SOURCE_HORSE/8501"
+local Name = "*⊷⌯⧼᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬⧽⌯⊶\n*★‹ [᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬](http://t.me/SOURCE_HORSE)*\n*★‹ [𝐀𝐒𝗞 𝗧𝐎 𝐌𝗘](http://t.me/SOURCE_HORSE)*\n*★‹ [ꪔ᥆ժY♡](t.me/M_O_0D)*\n*★‹ [᥉𝗁ᥲ️ժ᥆᭙♡](t.me/Belal_19)*\n*★‹ [᥉ƚᥱ᥎ᥱꪀ♡](t.me/M_0_OD)*\n⊷⌯⧼᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬⧽⌯⊶*"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬', url = 't.me/HORSE_0Bot?start'}
+{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬', url = 't.me/HORSE_2belalbot?start'}
 },
 {
 {text = '𝐀𝐃𝐃 𝐌𝐄💞', url = 't.me/'..UserBot..'?startgroup=new'}
@@ -1997,12 +1997,12 @@ keyboard.inline_keyboard = {
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(Name).."&photo="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 elseif text == 'المصنع' or text == 'مصنع' or text == 'عايز بوت' or text == 'عايز انصب بوت' then
-photo = "https://t.me/narutologo/42"
+photo = "https://t.me/HORSE_2belalbot"
 local Name = "𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪🇬\n"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪', url = 't.me/HORSE_0Bot?start'}
+{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪', url = 't.me/HORSE_2belalbot'?start'}
 },
 {
 {text = '𝐀𝐃𝐃 𝐌𝐄💞', url = 't.me/'..UserBot..'?startgroup=new'}
