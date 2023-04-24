@@ -2239,7 +2239,7 @@ Bio = ''
 end
 local photo = bot.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local DevJabwa = "*▷ . ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ 𝐌𝐎𝐃𝐘 ♯*\n*▷ɴᴀᴍᴇ 𝐌𝐎𝐃𝐘 ⇿ *"..ban.first_name.."\n*▷ ɪᴅ 𝐌𝐎𝐃𝐘 ⇿ "..UserId_Info.id.."*\n*▷ ʙɪᴏ 𝐌𝐎𝐃𝐘 ⇿*  *"..Bio.." *"
+local DevJabwa = "*▷ . ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ 𝚂𝙷𝙰𝙳𝙾𝚆 ♯*\n*▷ɴᴀᴍᴇ 𝚂𝙷𝙰𝙳𝙾𝚆 ⇿ *"..ban.first_name.."\n*▷ ɪᴅ 𝚂𝙷𝙰𝙳𝙾𝚆 ⇿ "..UserId_Info.id.."*\n*▷ ʙɪᴏ 𝚂𝙷𝙰𝙳𝙾𝚆 ⇿*  *"..Bio.." *"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -2268,7 +2268,7 @@ end
 end
 end
 if text == 'المطور مودي' or text == 'المبرمج مودي' or text == 'مودي' or text == 'kimmy' then  
-local UserId_Info = bot.searchPublicChat("TOPHORSE")
+local UserId_Info = bot.searchPublicChat("@M_O_0D")
 if UserId_Info.id then
 local  ban = bot.getUser(UserId_Info.id)
 local InfoUser = bot.getUserFullInfo(UserId_Info.id)
