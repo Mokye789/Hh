@@ -2170,7 +2170,7 @@ end
 if text == "افلام" or text == "فلم" or text == "الافلام" then
 local Jabwa = bot.getUser(senderr)
 local news = Jabwa.first_name
-local t = "*اليك قائمة الافلام من سورس فيجا 💥 *"
+local t = "*اليك قائمة الافلام من سورس هورس 💥 *"
 local m = "https://t.me/SOURCE_HORSE/1188"
 keyboard = {} 
 keyboard.inline_keyboard = {
