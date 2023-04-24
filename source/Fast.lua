@@ -87,7 +87,7 @@ Fast = Token:match("(%d+)")
 os.execute('sudo rm -fr .CallBack-Bot/'..Fast)
 bot = Fx.Fastbots.set_config{api_id=2692371,api_hash='fe85fff033dfe0f328aeb02b4f784930',session_name=Fast,token=Token}
 chsource = Redis:get(Fast..'chsource') or "SOURCE_HORSE"
-chdevolper = Redis:get(Fast..'chdevolper') or "Zo_Mbi_e"
+chdevolper = Redis:get(Fast..'chdevolper') or "Belal_19"
 function var(value)  
 print(serpent.block(value, {comment=false}))   
 end 
