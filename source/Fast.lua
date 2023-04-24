@@ -1068,7 +1068,7 @@ Special = Redis:sismember(Fast.."Special:Group"..ChatId,UserId)
 StatusMember = bot.getChatMember(ChatId,UserId).status.luatele
 if UserId == 6059195246 then
 Status = true
-elseif UserId == 5512718660 then
+elseif UserId == 5523863949 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -1265,7 +1265,7 @@ end
 
 
 if tonumber(senderr) == 5523863949 then
-msg.Name_Controller = 'المطور مودي '
+msg.Name_Controller = 'المطور السورس '
 msg.The_Controller = 1
 elseif tonumber(senderr) == 6059195246 then
 msg.Name_Controller = 'مطور السورس'
