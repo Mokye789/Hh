@@ -2002,7 +2002,7 @@ local Name = "𝐖𝐄𝑳𝐂𝐎𝐌𝐄 𝐓𝐎 ᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪', url = 't.me/HORSE_2belalbot'?start'}
+{text = '᥉᥆υᖇᥴᥱ 𝗁᥆ᖇ᥉ᥱ🇪', url = 't.me/HORSE_2belalbot?start'}
 },
 {
 {text = '𝐀𝐃𝐃 𝐌𝐄💞', url = 't.me/'..UserBot..'?startgroup=new'}
